@@ -27,4 +27,14 @@
 - Android P: vision of AI
     - Intelligence
     - Simplicity
-    - Digital wellbing
+    - Digital wellbing : dashboard, app timer, updated do not disturb, wind down
+        - Android P Beta 
+
+- MAP: fpr your tap / match / share with friends / vote in real-time 
+    - map with AR : VPS (WOW!!)
+        - google lens
+            - smart text selection. can recognize word. 
+
+- self-driving progect
+    - WAYMO : Thank you car 
+        - really so amazing about how they did for machinlearning of snowflake in the road.
