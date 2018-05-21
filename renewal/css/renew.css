@@ -78,6 +78,24 @@ body {
   margin: 0 auto;
 }
 
+.readable-hidden, legend{
+  /* 
+  접근할 수 없게 만들어줌. 일시적인 숨김처리를 할때만 써주는 용도.
+  display: none; 
+  clip 속성을 통해 숨김 처리를 함
+  overflow: 혹시 몰라서하는 의도
+  */
+  background-color: rgb(238, 238, 238);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  margin: -1px;
+
+}
+
+
 /* header */
 .header {
   background-color: rgba(245, 245, 245, 0.76);
@@ -198,6 +216,13 @@ body {
 .intro {
   /* background-color: rgb(83, 0, 0); */
   height: 200px;
+  background-image: url("images/Green-Leaves-PNG-Clipart.png");
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: 200px 100px;
+  background-size: 200px;
+  background-attachment: fixed;
+
 }
 
 @keyframes bounce01 {
@@ -268,7 +293,7 @@ body {
   background: linear-gradient(#f0f0f08a, #f3f3f3);
   height: 700px;
   border-radius: 20px 20px 0 0;
-
+  
 }
 
 .group::after { 
@@ -277,16 +302,91 @@ body {
 }
 
 .group01{
-  background-color: #771d1d6e;
+  background: radial-gradient(circle at right top, rgba(139, 87, 9, 0.404), rgba(214, 0, 0, 0.541));
   float: left;
-  width: 200px;
-  padding: 10px;
-  margin: 20px;
+  width: 300px;
+  border-radius: 10px;
 }
+
+.login {
+  padding: 10px;
+  margin: 10px;
+  background-color: #0c0c0cbe;
+  border-radius: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10px;
+  box-shadow: 3px 3px rgba(17, 17, 17, 0.274);
+} 
+
+
+.title-login {
+  color: rgb(245, 245, 245);
+  font-size: 1rem;
+  font-weight: 900;
+  width: 300px;
+  display: inline-block;
+  margin: 5px 0 5px 5px;
+} 
+
+.form-login fieldset {
+  margin: 5px;
+  padding: 0 0 10px 0;
+  border: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.171);
+  /* for login btn */
+  position: relative;
+}
+
+.idbox-login, .pwbox-login {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0 4px 0;
+  padding: 0;
+}
+
+.form-login [for="id-login"], .form-login [for="pw-login"] {
+  /* background-color: #0c0c0cbe; */
+  width: 80px;
+  display: inline-block;
+  padding-top: 3px;
+}
+
+.form-login [type="email"], .form-login [type="pw"]{
+  /* background-color: #0c0c0cbe; */
+  width: 110px;
+  height: 20px;
+  border: 1px solid #aaa;
+
+}
+
+.btn-login {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 60px;
+  height: 50px;
+  padding: 0;
+  border: 0px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+  font: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .group02 {
   background-color: #771d1d6e; 
-  width: 460px;
+  width: 420px;
   padding: 10px;
   margin-top: 20px;
   float: left;
@@ -294,7 +394,7 @@ body {
 
 .group03 {
   background-color: #771d1d6e;
-  width: 200px;
+  width: 140px;
   padding: 10px;
   margin: 20px;
   float: left;
