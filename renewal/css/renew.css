@@ -1,4 +1,5 @@
 @import url("normalize.css");
+@import url("fontello.css");
 
 /* reset */
 
@@ -107,6 +108,7 @@ body {
   /* border-right: thick double #0c0c0cbe; */
   border-radius: 0 0 20px 20px; 
   box-shadow: -0px -1px 5px  #0c0c0cbe;
+  /* position: fixed; */
 }
 
 /* logo */
@@ -219,7 +221,7 @@ body {
   background-image: url("images/Green-Leaves-PNG-Clipart.png");
   background-origin: border-box;
   background-repeat: no-repeat;
-  background-position: 200px 100px;
+  background-position: 300px 100px;
   background-size: 200px;
   background-attachment: fixed;
 
@@ -289,11 +291,12 @@ body {
 /* main */
 
 .body {
-  background-color: rgba(245, 245, 245, 0.76);
+  
   background: linear-gradient(#f0f0f08a, #f3f3f3);
+  /* background-color: rgba(150, 23, 23, 0.76); */
   height: 700px;
   border-radius: 20px 20px 0 0;
-  
+  padding: 20px 0 20px 0;
 }
 
 .group::after { 
@@ -311,7 +314,7 @@ body {
 .login {
   padding: 10px;
   margin: 10px;
-  background-color: #0c0c0cbe;
+  background-color: #1d1d1d93;
   border-radius: 5px 5px 5px 5px;
   padding: 10px 10px 10px 10px;
   box-shadow: 3px 3px rgba(17, 17, 17, 0.274);
@@ -323,7 +326,6 @@ body {
   font-size: 1rem;
   font-weight: 900;
   width: 300px;
-  display: inline-block;
   margin: 5px 0 5px 5px;
 } 
 
@@ -334,12 +336,14 @@ body {
   border-bottom: 2px solid rgba(255, 255, 255, 0.171);
   /* for login btn */
   position: relative;
+  
 }
 
 .idbox-login, .pwbox-login {
   width: 180px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 4px 0 4px 0;
   padding: 0;
 }
@@ -348,7 +352,7 @@ body {
   /* background-color: #0c0c0cbe; */
   width: 80px;
   display: inline-block;
-  padding-top: 3px;
+  padding-top: 4px;
 }
 
 .form-login [type="email"], .form-login [type="pw"]{
@@ -356,22 +360,69 @@ body {
   width: 110px;
   height: 20px;
   border: 1px solid #aaa;
-
+  box-shadow: 2px 2px 2px rgba(27, 27, 27, 0.63);
+  border-radius: 4px;
 }
 
 .btn-login {
   position: absolute;
-  top: 3px;
+  top: 4px;
   right: 0;
   width: 60px;
   height: 50px;
   padding: 0;
   border: 0px solid rgb(255, 255, 255);
   border-radius: 5px;
-  background-color: rgb(17, 17, 17);
+  background-color: rgba(17, 17, 17, 0.637);
+  box-shadow: 2px 2px 2px rgba(27, 27, 27, 0.63);
   color: #fff;
   font: inherit;
 }
+
+.sign { 
+  /* background-color: #aaa; */
+  padding: 3px 5px 0 5px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+
+.sign a {
+  margin: 0 0 0 20px;
+  padding: 5px 0;
+  display: inline-block;
+  color: rgb(243, 243, 243);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+
+/* link btn */
+
+.validation-link li:nth-child(1) {
+  margin: 30px 10px 0 10px;
+}
+
+.validation-link li:nth-child(2) {
+  margin: 10px 10px 30px 10px;
+}
+
+
+
+.validation-link li:nth-child(1), .validation-link li:nth-child(2){
+  background-color: rgb(63, 45, 48);
+  padding: 11px 10px 10px 10px;
+  border-radius:100px;
+  text-align: center;
+  color: rgb(243, 243, 243);
+  box-shadow: 2px 2px rgba(17, 17, 17, 0.274);
+}
+
+
+
+
+
 
 
 
