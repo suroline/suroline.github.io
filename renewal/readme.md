@@ -7,3 +7,5 @@
   - 0522
     - login box design is done // using flex box model and position absolute
     - link btn is done // not using class but using nth-child() for giving css to each link box
+  - 0523
+    - html tag study : dl, dt, dd 
