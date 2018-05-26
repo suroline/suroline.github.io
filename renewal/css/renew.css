@@ -71,7 +71,7 @@ body {
   background-image: url("images/0357f161cd880b6.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right 20%;
+  background-position: right 0;
 }
 
 .header, .intro, .body, .slogan, .bg-footer {
@@ -215,18 +215,32 @@ body {
 
 
 /* intro */
+
+
+
+
 .intro {
   /* background-color: rgb(83, 0, 0); */
+  width: 940px;
   height: 200px;
+  position: relative;
   background-image: url("images/Green-Leaves-PNG-Clipart.png");
-  background-origin: border-box;
+  background-size: 30%;
   background-repeat: no-repeat;
-  background-position: 300px 100px;
-  background-size: 200px;
   background-attachment: fixed;
-
+  background-position: 25% 35%;
+  
 }
+/* 
+.intro::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("images/bg_flower.png") no-repeat;
+  background-attachment: fixed;
+  background-position: left 0;
 
+} */
 @keyframes bounce01 {
   0%   {top: 0px; opacity:0}
   25%  {top: 160px;}
@@ -346,6 +360,12 @@ body {
   align-items: center;
   margin: 4px 0 4px 0;
   padding: 0;
+
+}
+
+.idbox-login input, .pwbox-login input {
+  padding: 3px 0 0 3px;
+  font-size: 0.9rem;
 }
 
 .form-login [for="id-login"], .form-login [for="pw-login"] {
@@ -419,11 +439,34 @@ body {
   box-shadow: 2px 2px rgba(17, 17, 17, 0.274);
 }
 
+/* defination */
 
+.term {
+  background-color: rgb(63, 45, 48);
+  margin: 0 10px 10px 10px;
+  /* border: 0px solid rgb(255, 255, 255); */
+  border-radius: 5px;
+  box-shadow: 2px 2px 0px rgba(17, 17, 17, 0.274);
+  color: #fff;
+  padding: 10px;
+}
 
+ 
+.term-list::after{
+  display: block;
+  content: "";
+  clear: both;
+} 
 
+.term-list-thumnail {
+  float: left;
+  
+}
 
-
+.term-list-subject, .term-list-brief {
+  float: right;
+  width: 160px;
+}
 
 
 
