@@ -9,3 +9,6 @@
     - link btn is done // not using class but using nth-child() for giving css to each link box
   - 0523
     - html tag study : dl, dt, dd 
+  - 0525
+    - fixed wrapper background-image position
+    - defination box designing using float function (~0526)
