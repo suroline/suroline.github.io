@@ -7,7 +7,7 @@ May 2018 : learn HTML3 sementic markup and CSS5
 
 Jun 2018 : learn JavaScript ES5 & ES6 
 - new movie website
-  - concept & user persona
+  - service concept & user persona
   - user scenario 
   - IA
   - UI/UX
