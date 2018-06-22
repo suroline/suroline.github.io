@@ -11,3 +11,5 @@ Jun 2018 : learn JavaScript ES5 & ES6
   - IA
   - UI/UX
   - prototype for research (UT)
+
+July 2018 : (planning) learn Angular 
