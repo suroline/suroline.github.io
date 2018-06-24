@@ -5,7 +5,7 @@ May 2018 : learn HTML5 sementic markup and CSS3
 - Start to plan for new movie website prototype.
   - planning to use Alexa skills.
 
-Jun 2018 : learn JavaScript ES5 & ES6 
+Jun 2018 : learn JavaScript ES5 & ES6 / TypeScript
 - new movie website
   - service concept & user persona
   - user scenario 
