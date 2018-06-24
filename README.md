@@ -1,6 +1,6 @@
 Place posting what i am interested in and what i've done these days :)
 
-May 2018 : learn HTML3 sementic markup and CSS5
+May 2018 : learn HTML5 sementic markup and CSS3
 - sample website design renewal (files at renewal folder)
 - Start to plan for new movie website prototype.
   - planning to use Alexa skills.
