@@ -21,5 +21,6 @@ Jun 2018 : learn JavaScript ES5 & ES6 / TypeScript
   - IA
   - UI/UX
   - prototype for research (UT)
+    - HTML5/CSS3/JavaScript/Alexa skills
 
 July 2018 : (planning) learn Angular 
